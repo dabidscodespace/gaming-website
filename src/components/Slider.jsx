@@ -3,7 +3,6 @@ import { Autoplay } from "swiper/modules"; // import the module
 import { Swiper, SwiperSlide } from "swiper/react";
 import { assets } from "../assets/assets";
 
-
 const Slider = () => {
   return (
     <div className="relative z-10 w-full overflow-hidden rounded-4xl">
@@ -13,7 +12,7 @@ const Slider = () => {
         slidesPerView={1}
         loop={false}
         autoplay={{
-          delay: 2000, 
+          delay: 2000,
           disableOnInteraction: false,
         }}
         className="mySwiper"
@@ -22,6 +21,8 @@ const Slider = () => {
           <img
             src={assets.slider_1}
             alt="Slide 1"
+            loading="lazy"
+            decoding="async"
             className="w-full h-full object-cover rounded-xl select-none"
           />
         </SwiperSlide>

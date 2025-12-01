@@ -12,6 +12,8 @@ const GameItem = ({ slug, name, id, image }) => {
         <div className="w-full aspect-square mb-3 flex items-center justify-center bg-linear-to-br from-gray-50 to-gray-100 dark:from-gray-700 dark:to-gray-600 rounded-xl overflow-hidden group-hover:scale-105 transition-transform duration-300">
           <img
             src={image}
+            decoding="async"
+            loading="lazy"
             className="object-contain w-full h-full p-2"
             alt=""
           />
