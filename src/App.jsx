@@ -18,7 +18,7 @@ const App = () => {
   };
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <ScrollToTop />
       <div>
         {loader && <Loader />}
@@ -33,7 +33,7 @@ const App = () => {
           <Route path="/login" element={<Login />} />
         </Routes>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };
