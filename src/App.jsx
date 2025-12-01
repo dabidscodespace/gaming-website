@@ -19,9 +19,10 @@ const App = () => {
   return (
     <>
       <Navbar />
+      {loader && <Loader />}
       <ScrollToTop />
+
       <div>
-        {loader && <Loader />}
         <Routes>
           <Route path="/" element={<Home setPageLoading={setPageLoading} />} />
           <Route

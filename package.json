@@ -11,7 +11,6 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.17",
-    "@tsparticles/slim": "^3.9.1",
     "axios": "^1.13.2",
     "crypto-js": "^4.2.0",
     "react": "^19.2.0",

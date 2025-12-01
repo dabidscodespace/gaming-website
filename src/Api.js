@@ -55,7 +55,7 @@ export const getAllProducts = async () => {
       params: {
         consumer_key: CONSUMER_KEY,
         consumer_secret: CONSUMER_SECRET_KEY,
-        per_page: 16,
+        per_page: 12,
       },
     });
     return res.data;
@@ -116,7 +116,7 @@ export const getProductVariations = async (productId) => {
       params: {
         consumer_key: CONSUMER_KEY,
         consumer_secret: CONSUMER_SECRET_KEY,
-        per_page: 100,
+        per_page: 20,
       },
     });
     return res.data;
