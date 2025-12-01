@@ -18,7 +18,7 @@ const App = () => {
   };
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar />
       <ScrollToTop />
       <div>
         {loader && <Loader />}
